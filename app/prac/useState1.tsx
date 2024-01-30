@@ -2,7 +2,7 @@
 'use client'
 import React, { useState } from "react";
 
-export default function UseState() {
+export default function UseState1() {
   const [count, setCount] = useState(1);
 
   const handleUpdate = () => {

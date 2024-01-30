@@ -2,7 +2,7 @@
 'use client'
 import React, { useState } from "react";
 
-export default function UseState() {
+export default function UseState2() {
   const [input, setInput] = useState("");
   const [output, setOuput] = useState([]);
 
@@ -13,7 +13,7 @@ export default function UseState() {
 
   const handleUpload = async (e) => {
     setOuput((prevState) => {
-      console.log(prevState)
+      console.log(`prevState : ${prevState}`)
       return [input, ... prevState];
     })
   }

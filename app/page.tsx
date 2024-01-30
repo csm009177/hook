@@ -2,6 +2,8 @@ import Image from "next/image";
 import UseState from "./useState";
 import useEffect from "react";
 import UseEffect from './useEffect';
+import UseState1 from './prac/useState1';
+import UseState2 from './prac/useState2';
 
 export default function Home() {
   return (
@@ -10,6 +12,18 @@ export default function Home() {
         Use State
         <br />
         <UseState />
+      </div>
+        <br />
+      <div className="bg-white text-black">
+        Use State 1
+        <br />
+        <UseState1/>
+      </div>
+        <br />
+      <div className="bg-white text-black">
+        Use State 2
+        <br />
+        <UseState2/>
       </div>
         <br />
       <div className="bg-white text-black">
