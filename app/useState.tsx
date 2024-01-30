@@ -3,10 +3,16 @@
 import React, { useState } from "react";
 
 export default function UseState() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const handleUpdate = () => {
-    setCount(count+1)
+    let newCount;
+    if(count>=12){
+      newCount=1;
+    } else {
+      newCount = count +1
+    }
+    setCount(newCount)
   }
   console.log('update')
   return (
