@@ -2,7 +2,7 @@
 'use client'
 import React, { useState } from "react";
 
-export default function useRef() {
+const UseRef = () => {
   const [count, setCount] = useState(1);
 
   const handleUpdate = () => {
@@ -23,3 +23,4 @@ export default function useRef() {
     </div>
   );
 }
+export default UseRef 
