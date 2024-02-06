@@ -2,7 +2,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 
-export default function UseEffect() {
+export default function UseEffect2() {
   const [show, setShow] = useState(false);
   const [count, setCount] = useState(0);
   

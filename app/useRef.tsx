@@ -1,5 +1,6 @@
 'use client'
 
+<<<<<<< HEAD
 import React, { useRef } from 'react';
 
 const UseRef = () => {
@@ -11,6 +12,10 @@ const UseRef = () => {
     
     inputRef.current.focus();
   };
+=======
+const UseRef = () => {
+  const [count, setCount] = useState(1);
+>>>>>>> 6805fbfb103def479fda3f89becdb785f0250d8e
 
   return (
     <div>
@@ -19,6 +24,11 @@ const UseRef = () => {
       <button onClick={focusInput}>Focus Input</button>
     </div>
   );
+<<<<<<< HEAD
 };
 
 export default UseRef;
+=======
+}
+export default UseRef 
+>>>>>>> 6805fbfb103def479fda3f89becdb785f0250d8e
