@@ -8,6 +8,7 @@ const UseRef = () => {
 
   // 버튼을 클릭할 때 input 요소에 포커스를 설정합니다.
   const focusInput = () => {
+    
     inputRef.current.focus();
   };
 
