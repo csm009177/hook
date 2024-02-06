@@ -6,11 +6,8 @@ import UseEffect from './useEffect';
 import UseState1 from './prac/useState1';
 import UseState2 from './prac/useState2';
 import UseRef from './useRef';
-<<<<<<< HEAD
-=======
 import UseEffect1 from './prac/useEffect1';
 import UseEffect2 from './prac/useEffect2';
->>>>>>> 6805fbfb103def479fda3f89becdb785f0250d8e
 
 export default function Home() {
   return (
