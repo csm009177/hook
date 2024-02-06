@@ -4,6 +4,7 @@ import useEffect from "react";
 import UseEffect from './useEffect';
 import UseState1 from './prac/useState1';
 import UseState2 from './prac/useState2';
+import UseRef from './useRef';
 
 export default function Home() {
   return (
@@ -31,6 +32,13 @@ export default function Home() {
         <br />
         <UseEffect/>
       </div>
+        <br />
+      <div className="bg-white text-black">
+        Use Ref1
+        <br />
+        <UseRef/>
+      </div>
+
     </main>
   );
 }
