@@ -36,6 +36,13 @@ export default function Home() {
         <br />
         <UseRef/>
       </div>
+        <br />
+      <div className="bg-white text-black">
+        Use Ref1
+        <br />
+        <UseRef/>
+      </div>
+
     </main>
   );
 }
